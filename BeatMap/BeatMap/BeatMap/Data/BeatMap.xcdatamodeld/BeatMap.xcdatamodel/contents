@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24411" systemVersion="25B78" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CDJournalEntry" representedClassName=".CDJournalEntry" syncable="YES" codeGenerationType="class">
+        <attribute name="acousticness" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="activity" optional="YES" attributeType="String"/>
+        <attribute name="albumArtSymbol" optional="YES" attributeType="String"/>
+        <attribute name="albumArtURL" optional="YES" attributeType="String"/>
+        <attribute name="audioSnippetFileName" optional="YES" attributeType="String"/>
+        <attribute name="company" optional="YES" attributeType="String"/>
+        <attribute name="danceability" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="durationMs" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="energyValue" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="genre" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="instrumentalness" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="isLivePerformance" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="journalText" optional="YES" attributeType="String"/>
+        <attribute name="key" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="liveness" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="location" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="loudness" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mode" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="moodValue" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="nostalgiaValue" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="songArtist" attributeType="String"/>
+        <attribute name="songId" attributeType="String"/>
+        <attribute name="songTitle" attributeType="String"/>
+        <attribute name="speechiness" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="spotifyEnergy" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="tempo" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="timeSignature" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="valence" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+</model>

@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EDADEA82ECCA9D5001B98DA /* OAuthSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8EDADEA72ECCA9D5001B98DA /* OAuthSwift */; };
+		8EDADEAA2ECCA9DE001B98DA /* OAuthSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8EDADEA92ECCA9DE001B98DA /* OAuthSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EFE3FDF2ECCA400009A4959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EFE3FC92ECCA3FF009A4959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EFE3FD02ECCA3FF009A4959;
+			remoteInfo = BeatMap;
+		};
+		8EFE3FE92ECCA400009A4959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EFE3FC92ECCA3FF009A4959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EFE3FD02ECCA3FF009A4959;
+			remoteInfo = BeatMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EFE3FD12ECCA3FF009A4959 /* BeatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFE3FDE2ECCA400009A4959 /* BeatMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFE3FE82ECCA400009A4959 /* BeatMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8EAF21AF2ECF5A6900F45DC4 /* Exceptions for "BeatMap" folder in "BeatMap" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8EFE3FD02ECCA3FF009A4959 /* BeatMap */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8EAF216F2ECE954200F45DC4 /* BeatMap */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8EAF21AF2ECF5A6900F45DC4 /* Exceptions for "BeatMap" folder in "BeatMap" target */,
+			);
+			path = BeatMap;
+			sourceTree = "<group>";
+		};
+		8EFE3FE12ECCA400009A4959 /* BeatMapTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeatMapTests;
+			sourceTree = "<group>";
+		};
+		8EFE3FEB2ECCA400009A4959 /* BeatMapUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeatMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EFE3FCE2ECCA3FF009A4959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDADEA82ECCA9D5001B98DA /* OAuthSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFE3FDB2ECCA400009A4959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDADEAA2ECCA9DE001B98DA /* OAuthSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFE3FE52ECCA400009A4959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EFE3FC82ECCA3FF009A4959 = {
+			isa = PBXGroup;
+			children = (
+				8EAF216F2ECE954200F45DC4 /* BeatMap */,
+				8EFE3FE12ECCA400009A4959 /* BeatMapTests */,
+				8EFE3FEB2ECCA400009A4959 /* BeatMapUITests */,
+				8EFE3FD22ECCA3FF009A4959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EFE3FD22ECCA3FF009A4959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EFE3FD12ECCA3FF009A4959 /* BeatMap.app */,
+				8EFE3FDE2ECCA400009A4959 /* BeatMapTests.xctest */,
+				8EFE3FE82ECCA400009A4959 /* BeatMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EFE3FD02ECCA3FF009A4959 /* BeatMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFE3FF22ECCA400009A4959 /* Build configuration list for PBXNativeTarget "BeatMap" */;
+			buildPhases = (
+				8EFE3FCD2ECCA3FF009A4959 /* Sources */,
+				8EFE3FCE2ECCA3FF009A4959 /* Frameworks */,
+				8EFE3FCF2ECCA3FF009A4959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8EAF216F2ECE954200F45DC4 /* BeatMap */,
+			);
+			name = BeatMap;
+			packageProductDependencies = (
+				8EDADEA72ECCA9D5001B98DA /* OAuthSwift */,
+			);
+			productName = BeatMap;
+			productReference = 8EFE3FD12ECCA3FF009A4959 /* BeatMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EFE3FDD2ECCA400009A4959 /* BeatMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFE3FF52ECCA400009A4959 /* Build configuration list for PBXNativeTarget "BeatMapTests" */;
+			buildPhases = (
+				8EFE3FDA2ECCA400009A4959 /* Sources */,
+				8EFE3FDB2ECCA400009A4959 /* Frameworks */,
+				8EFE3FDC2ECCA400009A4959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EFE3FE02ECCA400009A4959 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EFE3FE12ECCA400009A4959 /* BeatMapTests */,
+			);
+			name = BeatMapTests;
+			packageProductDependencies = (
+				8EDADEA92ECCA9DE001B98DA /* OAuthSwift */,
+			);
+			productName = BeatMapTests;
+			productReference = 8EFE3FDE2ECCA400009A4959 /* BeatMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EFE3FE72ECCA400009A4959 /* BeatMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFE3FF82ECCA400009A4959 /* Build configuration list for PBXNativeTarget "BeatMapUITests" */;
+			buildPhases = (
+				8EFE3FE42ECCA400009A4959 /* Sources */,
+				8EFE3FE52ECCA400009A4959 /* Frameworks */,
+				8EFE3FE62ECCA400009A4959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EFE3FEA2ECCA400009A4959 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EFE3FEB2ECCA400009A4959 /* BeatMapUITests */,
+			);
+			name = BeatMapUITests;
+			packageProductDependencies = (
+			);
+			productName = BeatMapUITests;
+			productReference = 8EFE3FE82ECCA400009A4959 /* BeatMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EFE3FC92ECCA3FF009A4959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					8EFE3FD02ECCA3FF009A4959 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					8EFE3FDD2ECCA400009A4959 = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 8EFE3FD02ECCA3FF009A4959;
+					};
+					8EFE3FE72ECCA400009A4959 = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 8EFE3FD02ECCA3FF009A4959;
+					};
+				};
+			};
+			buildConfigurationList = 8EFE3FCC2ECCA3FF009A4959 /* Build configuration list for PBXProject "BeatMap" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EFE3FC82ECCA3FF009A4959;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8EDADEA62ECCA9D5001B98DA /* XCRemoteSwiftPackageReference "OAuthSwift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8EFE3FD22ECCA3FF009A4959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EFE3FD02ECCA3FF009A4959 /* BeatMap */,
+				8EFE3FDD2ECCA400009A4959 /* BeatMapTests */,
+				8EFE3FE72ECCA400009A4959 /* BeatMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EFE3FCF2ECCA3FF009A4959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFE3FDC2ECCA400009A4959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFE3FE62ECCA400009A4959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EFE3FCD2ECCA3FF009A4959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFE3FDA2ECCA400009A4959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFE3FE42ECCA400009A4959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EFE3FE02ECCA400009A4959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EFE3FD02ECCA3FF009A4959 /* BeatMap */;
+			targetProxy = 8EFE3FDF2ECCA400009A4959 /* PBXContainerItemProxy */;
+		};
+		8EFE3FEA2ECCA400009A4959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EFE3FD02ECCA3FF009A4959 /* BeatMap */;
+			targetProxy = 8EFE3FE92ECCA400009A4959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EFE3FF02ECCA400009A4959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UJYTTBG22N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EFE3FF12ECCA400009A4959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UJYTTBG22N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EFE3FF32ECCA400009A4959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJYTTBG22N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeatMap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BeatMap;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "BeatMap can access your Apple Music library to enhance your music journal experience.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "BeatMap needs your location to tag journal entries with where you listened to music.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "BeatMap needs your location to tag journal entries with where you listened to music.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "BeatMap needs microphone access to identify songs using Shazam.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.BeatMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EFE3FF42ECCA400009A4959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJYTTBG22N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeatMap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BeatMap;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "BeatMap can access your Apple Music library to enhance your music journal experience.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "BeatMap needs your location to tag journal entries with where you listened to music.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "BeatMap needs your location to tag journal entries with where you listened to music.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "BeatMap needs microphone access to identify songs using Shazam.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.BeatMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EFE3FF62ECCA400009A4959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJYTTBG22N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.BeatMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeatMap";
+			};
+			name = Debug;
+		};
+		8EFE3FF72ECCA400009A4959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJYTTBG22N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.BeatMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeatMap";
+			};
+			name = Release;
+		};
+		8EFE3FF92ECCA400009A4959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJYTTBG22N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.BeatMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeatMap;
+			};
+			name = Debug;
+		};
+		8EFE3FFA2ECCA400009A4959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJYTTBG22N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Arthur.BeatMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeatMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EFE3FCC2ECCA3FF009A4959 /* Build configuration list for PBXProject "BeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFE3FF02ECCA400009A4959 /* Debug */,
+				8EFE3FF12ECCA400009A4959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFE3FF22ECCA400009A4959 /* Build configuration list for PBXNativeTarget "BeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFE3FF32ECCA400009A4959 /* Debug */,
+				8EFE3FF42ECCA400009A4959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFE3FF52ECCA400009A4959 /* Build configuration list for PBXNativeTarget "BeatMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFE3FF62ECCA400009A4959 /* Debug */,
+				8EFE3FF72ECCA400009A4959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFE3FF82ECCA400009A4959 /* Build configuration list for PBXNativeTarget "BeatMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFE3FF92ECCA400009A4959 /* Debug */,
+				8EFE3FFA2ECCA400009A4959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8EDADEA62ECCA9D5001B98DA /* XCRemoteSwiftPackageReference "OAuthSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OAuthSwift/OAuthSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8EDADEA72ECCA9D5001B98DA /* OAuthSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8EDADEA62ECCA9D5001B98DA /* XCRemoteSwiftPackageReference "OAuthSwift" */;
+			productName = OAuthSwift;
+		};
+		8EDADEA92ECCA9DE001B98DA /* OAuthSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8EDADEA62ECCA9D5001B98DA /* XCRemoteSwiftPackageReference "OAuthSwift" */;
+			productName = OAuthSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8EFE3FC92ECCA3FF009A4959 /* Project object */;
+}
